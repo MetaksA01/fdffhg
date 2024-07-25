@@ -1,0 +1,38 @@
+body {
+background: #0d1a65;
+    color: bisque;
+    text-align: center
+}
+
+.up {
+    width: 80px; /* Фиксированная ширина */
+  height: 80px; /* Фиксированная высота */
+  float: left;
+  margin-right: 10px; /* Отступ справа от изображения */
+}
+
+
+
+.down {
+    justify-content: center; /* Центрирование по горизонтали */
+    align-items: center; /* Центрирование по вертикали */
+    position: center;
+    width: 90%; /* Измените значение по необходимости */
+    height: 100%; /* Высота автоматически подстраивается под контент */
+    margin: 60px auto 0;
+    padding: 20px; /* Отступы внутри блока */
+    text-align: center; /* Центрирование текста по горизонтали */
+}
+
+.down p {
+    font-size: 18px; /* Размер шрифта для текста внутри блока */
+    letter-spacing: 1px; /* Межбуквенный интервал */
+}
+
+.up-t {
+    font-size: 50px;
+    margin: center;
+    text-align: center;
+    align-items: center;
+    height: 100px;
+}
